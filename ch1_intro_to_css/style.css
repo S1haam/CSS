@@ -1,0 +1,16 @@
+/*external css file styling */
+
+h1 {
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#the_first_p{
+    color: green;
+
+}
+.make_text_big {
+    font-size: 20px;
+    background-color: yellow;
+}

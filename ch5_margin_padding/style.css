@@ -1,0 +1,19 @@
+div{
+    border: solid 2px red;
+    height: 200px;
+    width: 200px;
+background-color: yellow;
+margin: 200px 50px ;
+/* margin-top: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+margin-left:  20px; */
+display: inline-block;
+padding: 5px 30px 10px 30px;
+/* padding-top: 5px;
+padding-right: 30px;
+padding-bottom: 10px;
+padding-left: 30px;
+*/
+}
+

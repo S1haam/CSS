@@ -1,0 +1,13 @@
+h1{
+/*rgb*/
+    color:rgb(0,0,255) ;
+
+   /*Hex*/
+    color: #ACAFFB;
+
+   /*name of the colour*/
+    color: green;
+
+/*rgb aplha(transparancy)*/
+    color:rgba(0,0,255,0.5) ;
+} 
