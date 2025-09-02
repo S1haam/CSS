@@ -1,0 +1,11 @@
+div{
+    border: solid 15px cyan;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    position: absolute; left: 0;right: 0;
+    border-radius: 20%;
+background-color: #FF0000;
+
+     
+}

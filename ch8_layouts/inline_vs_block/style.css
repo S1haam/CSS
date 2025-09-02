@@ -1,0 +1,11 @@
+h1{
+    background-color: #FFABFF;
+display: inline;
+}
+
+span{
+    background-color: #aa23dd;
+    color: #FFFFFF;
+    display: block;
+   margin: 5px; 
+}
