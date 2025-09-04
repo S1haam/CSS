@@ -1,0 +1,51 @@
+/* --------------------------
+   Define CSS variables in :root
+   -------------------------- */
+   :root {
+    --brand-color:pink;        /* main brand color */
+    --secondary-color: teal;       /* secondary color */
+    --button-padding: 1rem 2rem;   /* padding for buttons */
+    --paragraph-spacing: 1.5rem;   /* spacing for paragraphs */
+    --paragraph-font: 18px;        /* base font size for paragraphs */
+  }
+  
+  /* --------------------------
+     Buttons using variables
+     -------------------------- */
+  .primary {
+    background-color: var(--brand-color); /* use brand color */
+    color: white;
+    padding: var(--button-padding);       /* use button padding variable */
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .secondary {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: var(--button-padding);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  /* --------------------------
+     Paragraphs using variables
+     -------------------------- */
+  .spaced {
+    padding: var(--paragraph-spacing);   /* spacing from variable */
+    background-color: #f0f0f0;
+  }
+  
+  .font-size {
+    font-size: var(--paragraph-font);    /* font-size from variable */
+    color: #333;
+  }
+
+  .local-example {
+    --local-color: purple; /* local variable only available inside this element */
+    color: var(--local-color);
+  }
+  
+  

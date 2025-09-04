@@ -1,0 +1,52 @@
+/* Set a base font-size for the whole page */
+body {
+    font-size: 16px; /* 1rem = 16px by default */
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+  
+  /* Fixed size: always 20px no matter what */
+  .px {
+    font-size: 20px;
+    color: darkblue;
+  }
+  
+  /* clamp() = fluid text: grows with viewport but stays within min and max */
+.clamp {
+    font-size: clamp(1rem, 2vw, 2.5rem); /* min: 1rem, preferred: 2vw, max: 2.5rem */
+    color: darkorange;
+  }
+    
+  /* relative to the parent element's font-size */
+  .em {
+    font-size: 2em; /* 2 × body’s 16px = 32px */
+    color: darkgreen;
+  }
+  
+  /*  relative to the root (html/body) font-size */
+  .rem {
+    font-size: 2rem; /* 2 × 16px = 32px, no matter the parent */
+    color: darkred;
+  }
+  
+  /* vw = relative to viewport width (screen width) */
+  .vw {
+    font-size: 5vw; /* 5% of the width of your window */
+    color: purple;
+  }
+  
+  /* ch = roughly width of the "0" character in current font */
+  .ch {
+    width: 30ch; /* ~30 characters per line before wrapping */
+    border: 1px dashed gray;
+    color: teal;
+  }
+
+  /* Styling the span inside the last paragraph */
+  span {
+    font-size: 2em; /* 2 × parent paragraph font-size */
+    color: orange;
+    font-weight: bold;
+
+  }
+  

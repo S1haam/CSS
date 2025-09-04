@@ -1,0 +1,33 @@
+/* Grid container: 3 columns with spacing */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 1rem; /* space between boxes */
+    padding: 1rem;
+  }
+  
+  /* Boxes inside the grid use Flexbox */
+  .box {
+    display: flex; /* Flexbox for alignment inside box */
+    flex-direction: column; /* stack text vertically */
+    justify-content: flex-end; /* default: align items at bottom */
+    align-items: center; /* center horizontally */
+    height: 150px;
+    background-color: lightblue;
+    border: 2px solid darkblue;
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+  
+  /* Override alignment for specific boxes */
+  .box:nth-child(2) /*targets second box inside the parent*/ 
+  {
+    justify-content: center; /* center vertically */
+    background-color: lightgreen;
+  }
+  
+  .box:nth-child(3) {
+    justify-content: flex-start; /* align at top */
+    background-color: lightcoral;
+  }
+  
